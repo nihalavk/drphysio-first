@@ -1,0 +1,121 @@
+.nav-banner{
+    width: 100%;
+    width: fit-content;
+    }
+.logo{
+    width: 100%;
+    }
+.logo1{
+    margin-left: 5%;
+    width: 90%;
+    }
+.nav-items ul{
+    background-color: rgb(88, 88, 238);
+    color: white;
+    list-style-type: none;
+    width: fit-content;
+}
+.nav-items li a{
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.icon{
+    margin-left: 10%;
+    
+}
+.entry-image{
+    position: relative;
+}
+ .physio_img1{
+    opacity: .5;
+    width: 100%;
+ }
+ .head{
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(88, 88, 238);
+    width: 100%;
+    font-size: 18px;
+    color:rgb(248, 248, 248);
+    cursor: pointer;
+ }
+ .abt-images{
+    width: 85%;
+    margin-top: 20%;
+    margin-left: 5%;
+    border: 3px solid rgb(88, 88, 238);
+    border-radius: 20%;
+ }
+ .sub-headings{
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 800;
+ }
+ .about-head{
+    background-color: rgb(88, 88, 238);
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 7%;
+    font-weight: 600;
+ }
+ .para{
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 500;
+ }
+ .images{
+    width: 95%;
+    margin-top: 10%;
+    border: 3px solid rgb(88, 88, 238);
+    border-radius: 10%;
+ }
+ .connection{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-weight: 500;
+ }
+ .contact-det li{
+    list-style-type: none;
+ }
+ .foot{
+    background-color: rgb(88, 88, 238);
+ }
+ .icons ul{
+    display: flex;
+ }
+ .icons li{
+    list-style-type: none;
+    padding: 2%;
+    margin-left: 15%;
+ }
+ .icon1{
+    width: 10%;
+    color: white;
+ }
+ .foot-discr{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+ }
+ .foot-service{
+    color: white;
+    text-align: center;
+ }
+ .foot-service ul{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .foot-service li{
+    list-style-type: none;
+    padding: 2%;
+    font-size: 9px;
+    text-align: center;
+ }
+
+ 
