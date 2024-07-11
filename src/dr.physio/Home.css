@@ -1,14 +1,38 @@
+.nav-drop{
+    font-size: 20px;
+}
+.m-auto{
+    font-size: 20px;
+   
+}
+.nav-links{
+    color:rgb(88, 88, 238) ;
+    padding: 10px;
+}
+.nav-drop{
+    color:rgb(88, 88, 238) ;
+}
+#basic-nav-dropdown{
+    color:rgb(88, 88, 238) ;
+    padding: 10px;
+}
+.d-inline-block align-top{
+    width:400px;
+    height:100;
+}
 .nav-banner{
     width: 100%;
     width: fit-content;
+    display: flex;
     }
-.logo{
-    width: 100%;
-    }
+/* .logo{
+   margin-left: 0px;
+}
+    
 .logo1{
     margin-left: 5%;
-    width: 90%;
-    }
+    width: 30%;
+    }  */
 .nav-items ul{
     background-color: rgb(88, 88, 238);
     color: white;
@@ -22,7 +46,7 @@
     color: black;
 }
 .icon{
-    margin-left: 10%;
+    margin:5%;
     
 }
 .entry-image{
@@ -88,15 +112,11 @@
  }
  .icons ul{
     display: flex;
+    color: white;
  }
  .icons li{
     list-style-type: none;
-    padding: 2%;
     margin-left: 15%;
- }
- .icon1{
-    width: 10%;
-    color: white;
  }
  .foot-discr{
     color: white;

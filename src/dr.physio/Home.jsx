@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Home.css'
-import logo from './assets/drphysio_logo.jpeg'
+import './responcive.css'
+import logo from './assets/drphysio_logo1.jpeg'
 import img1 from './assets/physio_img1.jpeg'
 import img2 from './assets/physio_aboutimg.jpg'
 import img3 from './assets/ortho_img.jpg'
@@ -17,35 +18,36 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import Carousel from 'react-bootstrap/Carousel';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 function Home() {
-
-  const [navVisible,setNavVisible] = useState(false);
-  const toggleNav = () => {
-    setNavVisible(!navVisible);
-  };
   return (
     <div>
-      <div className="nav-banner">
-        <div className="logo">
-          <img className='logo1' src={logo}/>
-        </div>
-        <div className='icon'onClick={toggleNav}><IoReorderThreeOutline /></div>
-          {navVisible && (
-        <div className="nav">
-          <div className="nav-items">
-          
-            <ul>
-              <li><a href="home">Home</a></li>
-              <li><a href="about">About Us</a></li>
-              <li><a href="features">Our Services</a></li>
-              <li><a href="contact">Contact Us</a></li>  
-            </ul>
-            
-          </div>
-        </div>
-         )}
-      </div>          
+       <Navbar expand="lg" className="bg-body-tertiary">
+         <Container>
+            <Navbar.Brand href="#home"><img src={logo}width="400" height="100"className="d-inline-block align-top"/></Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+            <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="m-auto" >
+              <Nav.Link href="#home" className='nav-links'>Home</Nav.Link>
+              <Nav.Link href="#about" className='nav-links'>About Us</Nav.Link>
+              <NavDropdown title="Our Services" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1" className="nav-drop">Ortho Physiotherapy</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2" className="nav-drop">Neuro Physiotherapy</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3" className="nav-drop">Pediatric Physiotherapy</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4" className="nav-drop">Geriatric Physiotherapy </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4" className="nav-drop"> Gynacological Physiotherapy</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4" className="nav-drop">Post Surgical Physiotherapy</NavDropdown.Item>
+              </NavDropdown>
+              <Nav.Link href="#about" className='nav-links'>Contact Us</Nav.Link>
+            </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
       <div className="body">
          <div class="entry-image"> 
            <img className='physio_img1' src={img1} /> 
@@ -130,13 +132,7 @@ function Home() {
            </div>
           </div> 
           <div className="foot">
-            <div className="icons">
-              <ul>
-                <li className='icon1'><FaWhatsapp /></li>
-                <li className='icon1'><FaSquareInstagram /></li>
-                <li className='icon1'><IoMailOpenOutline /></li>
-              </ul>
-            </div>
+            
             <div className="foot-service">
               sevices provide
               <ul>
@@ -147,6 +143,13 @@ function Home() {
                 <li>gynecological physiotherapy</li>
                 <li>post surgical physiotherapy</li>
               </ul>
+              <div className="icons">
+              <ul>
+                <li className='icon1'><FaWhatsapp /></li>
+                <li className='icon1'><FaSquareInstagram /></li>
+                <li className='icon1'><IoMailOpenOutline /></li>
+              </ul>
+            </div>
             </div>
             <div className="foot-discr">2022 dr.physio-physiotherapy clinic</div>
           </div>
