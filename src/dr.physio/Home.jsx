@@ -29,7 +29,7 @@ function Home() {
     <div>
        <Navbar expand="lg" className="bg-body-tertiary">
          <Container>
-            <Navbar.Brand href="#home"><img src={logo}width="400" height="100"className="d-inline-block align-top"/></Navbar.Brand>
+            <Navbar.Brand href="#home"><img src={logo}className="d-inline-block align-top"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto" >
@@ -48,24 +48,24 @@ function Home() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-      <div className="body">
+      <div className="main-body">
          <div class="entry-image"> 
            <img className='physio_img1' src={img1} /> 
-           <div className="head">
-             <div className="head1">Say Goodbye to Pain...</div> 
-             <div className="head2">WELCOME TO DR.PHYSIO</div>
+           <div className="caption">
+             <div className="caption1">Say Goodbye to Pain...</div> 
+             <div className="caption2">Welcome To Dr.Physio</div>
            </div>
           <div className="about">
-            <div className="about-image">
-              <img className='abt-images' src={img2} />
+            
+              <div className="about-contents">
+                <img className='abt-images' src={img2} />
+                <div className="sub-headings">ABOUT US
+                <div className="abt-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas consectetur culpa nesciunt fugit officia earum veniam aperiam illo atque esse officiis quam quos magni, temporibus dolorum vel? Tempore, deleniti ex?</div>
+                </div>
+              </div>
+            <div className="about-head">Visions and Missions we have </div>
+            <div className="para">To emerge as a trust worthy medical rehabilitation institution, providing advanced physical therapy and rehabilitation services that enhance the quality of life for our patience and to deliver exceptional healthcare services by leveraging advanced technology and the expertise of our talented professionals, ensuring the highest quality of care for our patients.</div>
             </div>
-            <div className="sub-headings">ABOUT US</div>
-            <div className="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas consectetur culpa nesciunt fugit officia earum veniam aperiam illo atque esse officiis quam quos magni, temporibus dolorum vel? Tempore, deleniti ex?</div>
-            <div className="about-head">Our Vision</div>
-            <div className="para">Our vision is to emerge as a trust worthy medical rehabilitation institution, providing advanced physical therapy and rehabilitation services that enhance the quality of life for our patience.</div>
-            <div className="about-head">Our Mission</div>
-            <div className="para">Our mission is to deliver exceptional healthcare services by leveraging advanced technology and the expertise of our talented professionals, ensuring the highest quality of care for our patients.</div>
-          </div>
           <div className="services">
             <div className="sub-headings">SERVICES WE PROVIDE</div>
             <div className="service">
@@ -74,7 +74,7 @@ function Home() {
                 <div className="service-images">
                   <img className='images' src={img3} />
                 </div>
-                <Carousel.Caption><h3 style={{color:"rgb(88, 88, 238)"}}>Ortho Physiotherapy</h3></Carousel.Caption> 
+                <Carousel.Caption><h3 style={{color:"blue"}}>Ortho Physiotherapy</h3></Carousel.Caption> 
               </Carousel.Item>
               <Carousel.Item>
                 <div className="service-images">
@@ -132,26 +132,15 @@ function Home() {
            </div>
           </div> 
           <div className="foot">
-            
-            <div className="foot-service">
-              sevices provide
-              <ul>
-                <li>ortho physiotherapy</li>
-                <li>neuro physiotherapy</li>
-                <li>pediatric physiotherapy</li>
-                <li>geriatric physiotherapy</li>
-                <li>gynecological physiotherapy</li>
-                <li>post surgical physiotherapy</li>
-              </ul>
               <div className="icons">
               <ul>
                 <li className='icon1'><FaWhatsapp /></li>
                 <li className='icon1'><FaSquareInstagram /></li>
                 <li className='icon1'><IoMailOpenOutline /></li>
               </ul>
+            
             </div>
-            </div>
-            <div className="foot-discr">2022 dr.physio-physiotherapy clinic</div>
+            <div className="foot-discr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum exercitationem, quas dolor, eligendi voluptate id deleniti nostrum est natus tenetur</div>
           </div>
         </div>
     </div>
