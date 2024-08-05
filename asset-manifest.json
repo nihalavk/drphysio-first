@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0e0f4690.css",
+    "main.js": "/static/js/main.2ca059fe.js",
+    "static/js/453.c9c044d9.chunk.js": "/static/js/453.c9c044d9.chunk.js",
+    "static/media/pediat-img.jpeg": "/static/media/pediat-img.a413dd6fe4b90c5b6d11.jpeg",
+    "static/media/ortho_img.jpg": "/static/media/ortho_img.954df060faccd4619ae4.jpg",
+    "static/media/physio_img1.jpeg": "/static/media/physio_img1.2c86917033d1b60accd5.jpeg",
+    "static/media/surgical-img.jpg": "/static/media/surgical-img.507936804fce8790eb75.jpg",
+    "static/media/neuro-img.jpg": "/static/media/neuro-img.90f5b79b706d725c0fab.jpg",
+    "static/media/drphysio_logo1.jpeg": "/static/media/drphysio_logo1.809d5b4906f0ec5d5129.jpeg",
+    "static/media/gynec-img.jpg": "/static/media/gynec-img.b975befeb2abf8fb9ccd.jpg",
+    "static/media/gery-img.jpg": "/static/media/gery-img.f914f0413823fedb94cb.jpg",
+    "static/media/physio_aboutimg.jpg": "/static/media/physio_aboutimg.899e9377fc770bb2a532.jpg",
+    "index.html": "/index.html",
+    "main.0e0f4690.css.map": "/static/css/main.0e0f4690.css.map",
+    "main.2ca059fe.js.map": "/static/js/main.2ca059fe.js.map",
+    "453.c9c044d9.chunk.js.map": "/static/js/453.c9c044d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e0f4690.css",
+    "static/js/main.2ca059fe.js"
+  ]
+}
