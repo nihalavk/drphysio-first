@@ -1,5 +1,6 @@
 {
   "homepage": "https://drphysio-first.github.io/physio-app",
+  "name": "physio-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
