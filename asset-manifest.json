@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/drphysio-first/static/css/main.ab762f9f.css",
-    "main.js": "/drphysio-first/static/js/main.56d1ad80.js",
+    "main.css": "/drphysio-first/static/css/main.a1d36686.css",
+    "main.js": "/drphysio-first/static/js/main.dabfb5d0.js",
     "static/js/453.c9c044d9.chunk.js": "/drphysio-first/static/js/453.c9c044d9.chunk.js",
-    "static/media/pediat-img.jpeg": "/drphysio-first/static/media/pediat-img.a413dd6fe4b90c5b6d11.jpeg",
+    "static/media/Neuro-Physio.jpg": "/drphysio-first/static/media/Neuro-Physio.c450a07f461032228c4f.jpg",
     "static/media/ortho_img.jpg": "/drphysio-first/static/media/ortho_img.954df060faccd4619ae4.jpg",
+    "static/media/Child-Physiotherapy.jpg": "/drphysio-first/static/media/Child-Physiotherapy.95e67ef11716a0ce98da.jpg",
     "static/media/physio_img1.jpeg": "/drphysio-first/static/media/physio_img1.2c86917033d1b60accd5.jpeg",
     "static/media/surgical-img.jpg": "/drphysio-first/static/media/surgical-img.507936804fce8790eb75.jpg",
-    "static/media/neuro-img.jpg": "/drphysio-first/static/media/neuro-img.90f5b79b706d725c0fab.jpg",
     "static/media/drphysio_logo1.jpeg": "/drphysio-first/static/media/drphysio_logo1.809d5b4906f0ec5d5129.jpeg",
     "static/media/gynec-img.jpg": "/drphysio-first/static/media/gynec-img.b975befeb2abf8fb9ccd.jpg",
     "static/media/gery-img.jpg": "/drphysio-first/static/media/gery-img.f914f0413823fedb94cb.jpg",
     "static/media/physio_aboutimg.jpg": "/drphysio-first/static/media/physio_aboutimg.899e9377fc770bb2a532.jpg",
     "index.html": "/drphysio-first/index.html",
-    "main.ab762f9f.css.map": "/drphysio-first/static/css/main.ab762f9f.css.map",
-    "main.56d1ad80.js.map": "/drphysio-first/static/js/main.56d1ad80.js.map",
+    "main.a1d36686.css.map": "/drphysio-first/static/css/main.a1d36686.css.map",
+    "main.dabfb5d0.js.map": "/drphysio-first/static/js/main.dabfb5d0.js.map",
     "453.c9c044d9.chunk.js.map": "/drphysio-first/static/js/453.c9c044d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab762f9f.css",
-    "static/js/main.56d1ad80.js"
+    "static/css/main.a1d36686.css",
+    "static/js/main.dabfb5d0.js"
   ]
 }
