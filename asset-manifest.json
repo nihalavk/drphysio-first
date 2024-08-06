@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/physio-app/static/css/main.ab762f9f.css",
-    "main.js": "/physio-app/static/js/main.0ef8920f.js",
-    "static/js/453.69f3745b.chunk.js": "/physio-app/static/js/453.69f3745b.chunk.js",
+    "main.js": "/physio-app/static/js/main.a52f3620.js",
+    "static/js/453.c9c044d9.chunk.js": "/physio-app/static/js/453.c9c044d9.chunk.js",
     "static/media/pediat-img.jpeg": "/physio-app/static/media/pediat-img.a413dd6fe4b90c5b6d11.jpeg",
     "static/media/ortho_img.jpg": "/physio-app/static/media/ortho_img.954df060faccd4619ae4.jpg",
     "static/media/physio_img1.jpeg": "/physio-app/static/media/physio_img1.2c86917033d1b60accd5.jpeg",
@@ -14,11 +14,11 @@
     "static/media/physio_aboutimg.jpg": "/physio-app/static/media/physio_aboutimg.899e9377fc770bb2a532.jpg",
     "index.html": "/physio-app/index.html",
     "main.ab762f9f.css.map": "/physio-app/static/css/main.ab762f9f.css.map",
-    "main.0ef8920f.js.map": "/physio-app/static/js/main.0ef8920f.js.map",
-    "453.69f3745b.chunk.js.map": "/physio-app/static/js/453.69f3745b.chunk.js.map"
+    "main.a52f3620.js.map": "/physio-app/static/js/main.a52f3620.js.map",
+    "453.c9c044d9.chunk.js.map": "/physio-app/static/js/453.c9c044d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab762f9f.css",
-    "static/js/main.0ef8920f.js"
+    "static/js/main.a52f3620.js"
   ]
 }
