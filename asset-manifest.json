@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/drphysio-first/static/css/main.a1d36686.css",
-    "main.js": "/drphysio-first/static/js/main.dabfb5d0.js",
+    "main.css": "/drphysio-first/static/css/main.4b56b13a.css",
+    "main.js": "/drphysio-first/static/js/main.5ff2c3b4.js",
     "static/js/453.c9c044d9.chunk.js": "/drphysio-first/static/js/453.c9c044d9.chunk.js",
     "static/media/Neuro-Physio.jpg": "/drphysio-first/static/media/Neuro-Physio.c450a07f461032228c4f.jpg",
     "static/media/ortho_img.jpg": "/drphysio-first/static/media/ortho_img.954df060faccd4619ae4.jpg",
@@ -13,12 +13,12 @@
     "static/media/gery-img.jpg": "/drphysio-first/static/media/gery-img.f914f0413823fedb94cb.jpg",
     "static/media/physio_aboutimg.jpg": "/drphysio-first/static/media/physio_aboutimg.899e9377fc770bb2a532.jpg",
     "index.html": "/drphysio-first/index.html",
-    "main.a1d36686.css.map": "/drphysio-first/static/css/main.a1d36686.css.map",
-    "main.dabfb5d0.js.map": "/drphysio-first/static/js/main.dabfb5d0.js.map",
+    "main.4b56b13a.css.map": "/drphysio-first/static/css/main.4b56b13a.css.map",
+    "main.5ff2c3b4.js.map": "/drphysio-first/static/js/main.5ff2c3b4.js.map",
     "453.c9c044d9.chunk.js.map": "/drphysio-first/static/js/453.c9c044d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d36686.css",
-    "static/js/main.dabfb5d0.js"
+    "static/css/main.4b56b13a.css",
+    "static/js/main.5ff2c3b4.js"
   ]
 }
