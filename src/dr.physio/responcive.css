@@ -29,13 +29,16 @@
         margin-left: 1%;
     }
     .sub-headings{
+        text-align: left;
+        margin-left: 2%;
+        color: rgb(91, 91, 224);
         margin-top: 4%;
         font-size: 30px;
     }
     .para{
+        padding: 5px;
         margin: 2%;
-        text-align: unset;
-        font-weight: 500;
+        text-align: left;
         font-size: 20px;
     }
     .about-head{
@@ -43,9 +46,11 @@
         background-color: rgb(145, 145, 243);
     }
     .abt-para{
+        text-align: left;
         margin-left: 2%;
         margin-top: 4%;
         font-size: 20px;
+        padding: 5px;
     }
     .images{
         margin-left: 25%;
@@ -59,10 +64,15 @@
         text-align: left;
         margin-left: 2%;
     }
-    .icons{
-        margin-left: 20%;
-    }
     .icon1{
-        margin-top: 10%;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
       }
+      .icons ul{
+        margin-left: 40%;
+      }
+    .icons ul li{
+        margin-top: 4%;
+    }
 }
