@@ -11,11 +11,13 @@ import img6 from './assets/gery-img.jpg'
 import img7 from './assets/gynec-img.jpg'
 import img8 from './assets/surgical-img.jpg'
 import { IoCall } from "react-icons/io5";
-import { IoMailOpenOutline } from "react-icons/io5";
+import { IoIosMail } from "react-icons/io";
 import { MdOutlineAccessTime } from "react-icons/md";
+import { IoMailOpenOutline } from "react-icons/io5";
 import { CiLocationOn } from "react-icons/ci";
-import { FaWhatsapp } from "react-icons/fa";
+import { RiWhatsappFill } from "react-icons/ri";
 import { FaSquareInstagram } from "react-icons/fa6";
+import { FaSquareFacebook } from "react-icons/fa6";
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -132,9 +134,10 @@ function Home() {
           <div className="foot">
               <div className="icons">
               <ul>
-                <li ><FaWhatsapp className='icon1'/></li>
+                <li><FaSquareFacebook className='icon1'/></li>
+                <li ><RiWhatsappFill className='icon1'/></li>
                 <li ><FaSquareInstagram className='icon1'/></li>
-                <li ><IoMailOpenOutline className='icon1'/></li>
+                <li ><IoIosMail className='icon1'/></li>
               </ul>
             
             </div>
