@@ -10,6 +10,7 @@ import img5 from './assets/Child-Physiotherapy.jpg'
 import img6 from './assets/gery-img.jpg'
 import img7 from './assets/gynec-img.jpg'
 import img8 from './assets/surgical-img.jpg'
+import img9 from './assets/icon-whatsapp.svg'
 import { IoCall } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 import { MdOutlineAccessTime } from "react-icons/md";
@@ -43,6 +44,9 @@ function Home() {
                 <NavDropdown.Item href="#action/3.4" className="nav-drop">Geriatric Physiotherapy </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4" className="nav-drop"> Gynacological Physiotherapy</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4" className="nav-drop">Post Surgical Physiotherapy</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4" className="nav-drop">Instrument Assisted soft tissue mobilization(IASTM)</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4" className="nav-drop">Dry Needling</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4" className="nav-drop">Myofacil Release(MFR)</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#contact" className='nav-links'>Contact Us</Nav.Link>
             </Nav>
@@ -51,11 +55,16 @@ function Home() {
         </Navbar>
       <div className="main-body">
         <div class="entry-image"> 
+        <div className="whatsp">
+          <img className='whatsp-icon' src={img9}/>
+        </div>
           <img className='physio_img1' src={img1} /> 
+          
           <div className="caption">
             <div className="caption1">Say Goodbye to Pain...</div> 
             <div className="caption2">Welcome To Dr.Physio</div>
           </div>
+          
         <div className="about" id="about-section">    
           <div className="about-contents">
             <img className='abt-images' src={img2} />
@@ -66,6 +75,7 @@ function Home() {
           <div className="about-head">Visions and Missions we have </div>
           <div className="para">To emerge as a trust worthy medical rehabilitation institution, providing advanced physical therapy and rehabilitation services that enhance the quality of life for our patience and to deliver exceptional healthcare services by leveraging advanced technology and the expertise of our talented professionals, ensuring the highest quality of care for our patients.</div>
         </div>
+        
         <div className="services">
           <div className="sub-headings">SERVICES WE PROVIDE</div>
           <div className="service">
