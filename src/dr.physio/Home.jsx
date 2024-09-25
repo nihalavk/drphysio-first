@@ -11,6 +11,9 @@ import img6 from './assets/gery-img.jpg'
 import img7 from './assets/gynec-img.jpg'
 import img8 from './assets/surgical-img.jpg'
 import img9 from './assets/icon-whatsapp.svg'
+import img10 from './assets/iastm-therapy.jpg'
+import img11 from './assets/img-mfr.jpg'
+import img12 from './assets/Dry-Needling.jpg'
 import { IoCall } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 import { MdOutlineAccessTime } from "react-icons/md";
@@ -67,12 +70,13 @@ function Home() {
           
         <div className="about" id="about-section">    
           <div className="about-contents">
-            <img className='abt-images' src={img2} />
+            
               <div className="sub-headings">ABOUT US
-                <div className="abt-para">At our center, we are dedicated to delivering result-oriented physiotherapy services grounded in scientific protocols. Our approach emphasizes advanced physiotherapy techniques and long-term rehabilitation strategies designed to ensure our clients achieve and maintain optimal functional independence throughout their lives. By focusing on personalized care and evidence-based practices, we aim to support our clients in their journey toward sustained health, mobility, and overall well-being.</div>
+                <div className="abt-para">We are dedicated to delivering result-oriented physiotherapy services grounded in scientific protocols. Our approach emphasizes advanced physiotherapy techniques and long-term rehabilitation strategies designed to ensure our clients achieve and maintain optimal functional independence throughout their lives. By focusing on personalized care and evidence-based practices, we aim to support our clients in their journey toward sustained health, mobility, and overall well-being.</div>
               </div>
+              <img className='abt-images' src={img2} />
           </div>
-          <div className="about-head">Visions and Missions we have </div>
+          <div className="sub-headings">VISION AND MISSION</div>
           <div className="para">To emerge as a trust worthy medical rehabilitation institution, providing advanced physical therapy and rehabilitation services that enhance the quality of life for our patience and to deliver exceptional healthcare services by leveraging advanced technology and the expertise of our talented professionals, ensuring the highest quality of care for our patients.</div>
         </div>
         
@@ -115,6 +119,24 @@ function Home() {
                   <img className='images' src={img8} />
                 </div>
                 <Carousel.Caption><h3 style={{color:"black"}}>Post Surgical Physiotherapy</h3></Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="service-images">
+                  <img className='images' src={img10} />
+                </div>
+                <Carousel.Caption><h3 style={{color:"black"}}>IASTM</h3></Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="service-images">
+                  <img className='images' src={img11} />
+                </div>
+                <Carousel.Caption><h3 style={{color:"black"}}>MFR</h3></Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="service-images">
+                  <img className='images' src={img12} />
+                </div>
+                <Carousel.Caption><h3 style={{color:"black"}}>Dry needling</h3></Carousel.Caption>
               </Carousel.Item>
             </Carousel>
             </div>
