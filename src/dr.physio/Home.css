@@ -62,6 +62,7 @@
     width: 100%;
  }
  .caption{
+   padding: 5px;
     font-weight: bold;
     text-align: center;
     background-color: rgb(88, 88, 238);
@@ -151,6 +152,7 @@
    cursor: pointer;
    width: 50px;
    height: 50px;  
+
 }
 .whatsp-icon:hover {
    animation: shake 0.5s;
@@ -171,6 +173,7 @@
    100% { transform: translate(1px, -2px) rotate(-1deg); }
  }
 .whatsp{
+   z-index: 1;
    position: fixed;
    margin-left: 80%;
    margin-top: 110%;
