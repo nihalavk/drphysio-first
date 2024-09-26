@@ -64,8 +64,8 @@ function Home() {
           <img className='physio_img1' src={img1} /> 
           
           <div className="caption">
-            <div className="caption1">Say Goodbye to Pain...</div> 
-            <div className="caption2">Welcome To Dr.Physio</div>
+            <div className="caption1">Pain free life through Physiotherapy</div> 
+            <div className="caption2">Welcome To Dr.Physio!</div>
           </div>
           
         <div className="about" id="about-section">    
@@ -82,8 +82,8 @@ function Home() {
         
         <div className="services">
           <div className="sub-headings">SERVICES WE PROVIDE</div>
-          <div className="para">At Dr.Physio we are committed to providing personalized, evidence-based physiotherapy services to help you achieve optimal health and mobility. Our services include advanced techniques such as <b>Instrument-Assisted Soft Tissue Mobilization (IASTM), dry needling, and myofascial release</b>, alongside 
-          <b>Ortho physiotherapy, Neuro Physiotherapy, Gynecological, Pediatric, Geriatric Physiotherapy and Post Surgical Physiotherapy.</b> 
+          <div className="para">At Dr.Physio we are committed to providing personalized, evidence-based physiotherapy services to help you achieve optimal health and mobility. Our services include advanced techniques such as <b>Instrument-Assisted Soft Tissue Mobilization (IASTM), dry needling, and myofascial release(MFR)</b>, alongside 
+          <b> Ortho physiotherapy, Neuro Physiotherapy, Gynecological, Pediatric, Geriatric Physiotherapy and Post Surgical Physiotherapy.</b> 
           Contact us today to begin your journey toward better health.
           </div>
           <div className="service">

@@ -7,23 +7,28 @@
 }
 .nav-drop{
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
 }
 .m-auto{
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
    
 }
 .nav-links{
     color:rgb(88, 88, 238) ;
     padding: 10px;
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif
 }
 .nav-drop{
     color:rgb(88, 88, 238) ;
+    font-family: 'Times New Roman', Times, serif
 }
 #basic-nav-dropdown{
     color:rgb(88, 88, 238) ;
     padding: 10px;
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif
 }
 .d-inline-block {
     width: 200px;
@@ -46,6 +51,7 @@
     text-decoration: none;
     font-size: 15px;
     color: black;
+    font-family: 'Times New Roman', Times, serif
 }
 .icon{
     margin:5%;   
@@ -58,15 +64,16 @@
     position: relative;
 }
  .physio_img1{
-    opacity: .4;
+    /* opacity: .4; */
     width: 100%;
  }
  .caption{
    padding: 5px;
-    font-weight: bold;
+    /* font-weight:500; */
     text-align: center;
     background-color: rgb(88, 88, 238);
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
    
     font-size: 18px;
     color:rgb(248, 248, 248);
@@ -83,6 +90,7 @@
     margin-top: 5%;
     font-weight: 800;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
  }
  .about-head{
     background-color: rgb(88, 88, 238);
@@ -92,12 +100,14 @@
     font-size: 30px;
     margin-top: 7%;
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
  }
  .para{
     margin: 5%;
     text-align: center;
     font-size: 20px;
     padding: 3px;
+    /* font-family: 'Times New Roman', Times, serif; */
 
  }
  .abt-para{
@@ -106,6 +116,7 @@
    text-align: center;
    font-weight: 400;
    padding: 3px;
+   /* font-family: 'Times New Roman', Times, serif; */
  }
  .service-images{
    height: 50%;
@@ -120,11 +131,13 @@
     margin-top: 5%;
     margin-left: 4%;
     font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
     
  }
  .contact-det li{
     list-style-type: none;
     padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
  }
  .foot{
     background-color: rgb(88, 88, 238);
@@ -147,6 +160,7 @@
     background-color:rgb(88, 88, 238) ;
     font-size: 15px;
     text-align: center;
+    /* font-family: 'Times New Roman', Times, serif; */
  }
  .whatsp-icon{
    cursor: pointer;
@@ -176,7 +190,7 @@
    z-index: 1;
    position: fixed;
    margin-left: 80%;
-   margin-top: 110%;
+   margin-top: 180%;
    width: 50px;
    height: 50px;
 }

@@ -8,17 +8,23 @@
      }
     .entry-image{
         position: relative;
-        width: 75%;
-        margin-left: 15%;
+        margin-top: 95px;
+        width: 90%;
+    }
+    .physio_img1{
+        margin-top: 5px;
+        width: 111%;
+
     }
     .caption{
         position: absolute;
         background: none;
-        top: 4%;
+        top: 2.5%;
         left: 60%;
         width: 50%;
+        font-family: 'Times New Roman', Times, serif;
         font-size: 30px;
-        color: rgb(100, 120, 165);
+        color: rgb(46, 81, 163);
         text-align: center;
     }
     .about-contents{
@@ -38,12 +44,14 @@
         color: rgb(91, 91, 224);
         margin-top: 4%;
         font-size: 30px;
+        font-family: 'Times New Roman', Times, serif
     }
     .para{
         padding: 5px;
         margin: 2%;
         text-align: left;
         font-size: 20px;
+        font-family: 'Times New Roman', Times, serif
     }
     .about-head{
         margin-top: 2%;
@@ -55,6 +63,7 @@
         margin-top: 4%;
         font-size: 20px;
         padding: 5px;
+        font-family: 'Times New Roman', Times, serif
     }
     .images{
         margin-left: 25%;
@@ -67,6 +76,7 @@
         font-weight: 900;
         text-align: left;
         margin-left: 2%;
+        font-family: 'Times New Roman', Times, serif
     }
     .icon1{
         cursor: pointer;
@@ -85,8 +95,8 @@
         height: 50px;    
     }
     .whatsp{
-        margin-left: 75%;
-        margin-top: 30%;
+        margin-left: 90%;
+        margin-top: 35%;
         width: 50px;
         height: 50px;
     }
