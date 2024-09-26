@@ -57,7 +57,7 @@ function Home() {
           </Container>
         </Navbar>
       <div className="main-body">
-        <div class="entry-image"> 
+        <div class="entry-image" id='home'> 
         <div className="whatsp">
           <img className='whatsp-icon' src={img9}/>
         </div>
@@ -82,61 +82,66 @@ function Home() {
         
         <div className="services">
           <div className="sub-headings">SERVICES WE PROVIDE</div>
+          <div className="para">At Dr.Physio we are committed to providing personalized, evidence-based physiotherapy services to help you achieve optimal health and mobility. Our services include advanced techniques such as <b>Instrument-Assisted Soft Tissue Mobilization (IASTM), dry needling, and myofascial release</b>, alongside 
+          <b>Ortho physiotherapy, Neuro Physiotherapy, Gynecological, Pediatric, Geriatric Physiotherapy and Post Surgical Physiotherapy.</b> 
+          Contact us today to begin your journey toward better health.
+          </div>
           <div className="service">
           <Carousel>
             <Carousel.Item>
+            {/* <Carousel.Caption><h3 className='carousal'>Ortho Physiotherapy</h3></Carousel.Caption> */}
               <div className="service-images">
                 <img className='images' src={img3} />
               </div>
-              <Carousel.Caption><h3 style={{color:"black"}}>Ortho Physiotherapy</h3></Carousel.Caption> 
+               
             </Carousel.Item>
           <Carousel.Item>
             <div className="service-images">
               <img className='images' src={img4} />
             </div>
-            <Carousel.Caption><h3 style={{color:"black"}}>Neuro Physiotherapy</h3></Carousel.Caption>
+            {/* <Carousel.Caption><h3 className='carousal'>Neuro Physiotherapy</h3></Carousel.Caption> */}
           </Carousel.Item>
           <Carousel.Item>
             <div className="service-images">
               <img className='images' src={img5} />
             </div>
-            <Carousel.Caption><h3 style={{color:"black"}}>Pediatric Physiotherapy</h3></Carousel.Caption>
+            {/* <Carousel.Caption><h3 className='carousal'>Pediatric Physiotherapy</h3></Carousel.Caption> */}
           </Carousel.Item>
           <Carousel.Item>
             <div className="service-images">
               <img className='images' src={img6} />
             </div>
-            <Carousel.Caption><h3 style={{color:"black"}}>Geriatric Physiotherapy</h3></Carousel.Caption>
+            {/* <Carousel.Caption><h3 className='carousal'>Geriatric Physiotherapy</h3></Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <div className="service-images">
                   <img className='images' src={img7} />
                 </div>
-                <Carousel.Caption><h3 style={{color:"black"}}>Gynecological Physiotherapy</h3></Carousel.Caption>
+                {/* <Carousel.Caption><h3 className='carousal'>Gynecological Physiotherapy</h3></Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <div className="service-images">
                   <img className='images' src={img8} />
                 </div>
-                <Carousel.Caption><h3 style={{color:"black"}}>Post Surgical Physiotherapy</h3></Carousel.Caption>
+                {/* <Carousel.Caption><h3 className='carousal'>Post Surgical Physiotherapy</h3></Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <div className="service-images">
                   <img className='images' src={img10} />
                 </div>
-                <Carousel.Caption><h3 style={{color:"black"}}>IASTM</h3></Carousel.Caption>
+                {/* <Carousel.Caption><h3 className='carousal'>IASTM</h3></Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <div className="service-images">
                   <img className='images' src={img11} />
                 </div>
-                <Carousel.Caption><h3 style={{color:"black"}}>MFR</h3></Carousel.Caption>
+                {/* <Carousel.Caption><h3 className='carousal'>MFR</h3></Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <div className="service-images">
                   <img className='images' src={img12} />
                 </div>
-                <Carousel.Caption><h3 style={{color:"black"}}>Dry needling</h3></Carousel.Caption>
+                {/* <Carousel.Caption><h3 className='carousal'>Dry needling</h3></Carousel.Caption> */}
               </Carousel.Item>
             </Carousel>
             </div>
@@ -154,10 +159,10 @@ function Home() {
                 </div>
                 <div className="contact-det">
                   <ul>
-                   <li>+91 9745224441,<br></br>+91 8714440503</li>
+                   <li>+91 9745224441,<br></br>+91 9715030405</li>
                    <li>drphysio@gmail.com</li>
-                   <li>9.00AM-1.00PM (Mon-Sat)</li>
-                   <li>Sahara Building, Beach Road Koyilandy</li>
+                   <li>9.30AM-1.00PM (Mon-Sat)</li>
+                   <li>Sahara Building, Beach Road Koyilandy (Traffic police station Road)</li>
                   </ul>
                 </div>
              </div>

@@ -1,4 +1,7 @@
 @media screen and (min-width: 600px){
+    .bg-body-tertiary{
+        height: 100px;
+    }
     .d-inline-block{
         width: 400px;
         height: 100px;
@@ -23,14 +26,15 @@
     }
    
     .abt-images{
-        margin-top: 4%;
+        margin-top: 10%;
         border-radius:20%;
-        width: 45%;
+        width:400px;
+        height: 300px;
         margin-left: 1%;
     }
     .sub-headings{
         text-align: left;
-        margin-left: 2%;
+        margin-left: 3%;
         color: rgb(91, 91, 224);
         margin-top: 4%;
         font-size: 30px;
@@ -47,7 +51,7 @@
     }
     .abt-para{
         text-align: left;
-        margin-left: 2%;
+        margin-left: -1%;
         margin-top: 4%;
         font-size: 20px;
         padding: 5px;
