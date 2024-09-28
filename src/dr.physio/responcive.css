@@ -1,11 +1,21 @@
 @media screen and (min-width: 600px){
+   /* navbar */
     .bg-body-tertiary{
         height: 100px;
     }
     .d-inline-block{
-        width: 400px;
-        height: 100px;
+        margin-left: -100px;
+        width: 220px;
+        height: 50px;
      }
+     .nav-links{
+        font-size: 22px;
+
+     }
+     #basic-nav-dropdown{
+        font-size: 22px;
+     }
+     /* home */
     .entry-image{
         position: relative;
         margin-top: 95px;
@@ -19,78 +29,16 @@
     .caption{
         position: absolute;
         background: none;
-        top: 2.5%;
-        left: 60%;
-        width: 50%;
+        width: 495px;
+        top: 8%;
+        left: 69%;
         font-family: 'Times New Roman', Times, serif;
-        font-size: 30px;
-        color: rgb(46, 81, 163);
+        font-weight: 600;
+        font-size: 45px;
+        color: rgb(40, 66, 126);
         text-align: center;
     }
-    .about-contents{
-        display: flex;
-    }
-   
-    .abt-images{
-        margin-top: 10%;
-        border-radius:20%;
-        width:400px;
-        height: 300px;
-        margin-left: 1%;
-    }
-    .sub-headings{
-        text-align: left;
-        margin-left: 3%;
-        color: rgb(91, 91, 224);
-        margin-top: 4%;
-        font-size: 30px;
-        font-family: 'Times New Roman', Times, serif
-    }
-    .para{
-        padding: 5px;
-        margin: 2%;
-        text-align: left;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif
-    }
-    .about-head{
-        margin-top: 2%;
-        background-color: rgb(145, 145, 243);
-    }
-    .abt-para{
-        text-align: left;
-        margin-left: -1%;
-        margin-top: 4%;
-        font-size: 20px;
-        padding: 5px;
-        font-family: 'Times New Roman', Times, serif
-    }
-    .images{
-        margin-left: 25%;
-        width: 50%;
-        border-radius: 10%;
-     }
-    .about-head{
-        background: none;
-        color: rgb(91, 91, 224);
-        font-weight: 900;
-        text-align: left;
-        margin-left: 2%;
-        font-family: 'Times New Roman', Times, serif
-    }
-    .icon1{
-        cursor: pointer;
-        width: 40px;
-        height: 40px;
-      }
-      .icons ul{
-        margin-left: 40%;
-      }
-    .icons ul li{
-        margin-top: 4%;
-    }
-    .whatsp-icon{
-        
+    .whatsp-icon{    
         width: 50px;
         height: 50px;    
     }
@@ -100,4 +48,53 @@
         width: 50px;
         height: 50px;
     }
+    .about-contents{
+        display: flex;
+    }
+   
+    .abt-images{
+        margin-top: 8%;
+        border-radius:50%;
+        width:300px;
+        height: 250px;
+        margin-left: 1%;
+    }
+    .sub-headings{
+        margin-left: 8%;
+        color: rgb(91, 91, 224);
+        padding: 8%;
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .para{
+        margin-top: 5%;
+        line-height: 1.6;
+        padding: 5px;
+        margin-left: 50px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+     .service{
+        margin-left: 50px;
+        height: 500px;
+        width: 350px;
+     }
+     .services{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     
+    .foot1{
+        padding-top: 20px;
+        font-size: 22px;
+        /* font-style: oblique; */
+    }
+    .foot2-head{
+        padding-left: 60px;
+    }
+    .foot2-list{
+        padding-left: 60px;
+    }
+    
 }
