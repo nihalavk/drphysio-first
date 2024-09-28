@@ -31,7 +31,6 @@
         background: none;
         /* width: 495px; */
         top: 10%;
-        /* left: 69%; */
         font-family: 'Times New Roman', Times, serif;
         font-weight: 600;
         font-size: 45px;
@@ -76,6 +75,7 @@
     }
 
      .service{
+        margin: auto;
         margin-top: 5%;
         width: 350px;
      }
@@ -84,6 +84,12 @@
         flex-wrap: wrap;
      }
      
+     .contact-icon{
+        width: 25px;
+      }
+     .contact-det li{
+        font-size: 22px;
+      }
     .foot1{
         padding-top: 20px;
         font-size: 22px;

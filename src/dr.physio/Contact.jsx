@@ -1,10 +1,10 @@
 import React from 'react'
 import './Home.css'
 import './responcive.css'
-import { IoCall } from "react-icons/io5";
-import { MdOutlineAccessTime } from "react-icons/md";
-import { IoMailOpenOutline } from "react-icons/io5";
-import { CiLocationOn } from "react-icons/ci";
+import { CiMail } from "react-icons/ci";
+import { BsClock } from "react-icons/bs";
+import { FiPhoneOutgoing } from "react-icons/fi";
+import { GrLocation } from "react-icons/gr";
 function Contact() {
   return (
     <div>
@@ -13,10 +13,10 @@ function Contact() {
               <div className="connection">
                 <div className="contact-det">
                   <ul>
-                   <li><IoCall style={{height:"45px"}}/></li>
-                   <li><IoMailOpenOutline /></li>
-                   <li><MdOutlineAccessTime /></li>
-                   <li><CiLocationOn /></li>
+                   <li><FiPhoneOutgoing className='contact-icon' style={{height:"45px"}}/></li>
+                   <li><CiMail className='contact-icon' /></li>
+                   <li><BsClock className='contact-icon' /></li>
+                   <li><GrLocation className='contact-icon'/></li>
                  </ul>
                 </div>
                 <div className="contact-det">

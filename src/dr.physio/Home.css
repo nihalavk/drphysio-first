@@ -79,11 +79,10 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     color:rgb(248, 248, 248);
-    cursor: pointer;
  }
  .caption1{
    width: fit-content;
-   text-align: center;
+   text-align: end;
  }
  .whatsp-icon{
    cursor: pointer;
@@ -160,7 +159,7 @@
 .service{
    padding: 25px;
    border-radius: 8px 8px;
-   margin: auto;
+   margin: 8%;
    border: .5px solid rgb(184, 204, 231);
 }
 .service:hover{
@@ -195,6 +194,9 @@
     font-family: 'Times New Roman', Times, serif;
     
  }
+ .contact-icon{
+   width: 20px;
+ }
  .contact-det li{
     list-style-type: none;
     padding-top: 10px;
@@ -203,6 +205,7 @@
  /* footer */
  .foot{
     background-color: rgb(35, 35, 69);
+    
  }
 
  .foot-discr{
