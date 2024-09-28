@@ -106,10 +106,10 @@
    100% { transform: translate(1px, -2px) rotate(-1deg); }
  }
 .whatsp{
-   z-index: 1;
+   z-index: 9;
    position: fixed;
    margin-left: 80%;
-   margin-top: 180%;
+   margin-top: 170%;
    width: 50px;
    height: 50px;
 }
@@ -173,8 +173,8 @@
 }
 .service-btn{
    width: 120px;
-   margin-left: 110px;
-   margin-top: 20px;
+   margin-left: 130px;
+   margin-top: 50px;
    padding: 5px;
    border-radius: 12px;
    border: none;
@@ -232,9 +232,6 @@
    padding: 30px;
    font-size: 21px;
    font-weight: 500;
- }
- .icon1{
-   
  }
  .icons ul{
    display: flex;
