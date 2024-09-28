@@ -16,7 +16,7 @@ function Home() {
           <img className='physio_img1' src={img1} /> 
           <div className="caption">
             <div className="caption1">Pain free life through Physiotherapy;</div> 
-            <div className="caption2">Welcome To Dr.Physio!</div>
+            <div className="caption1">Welcome To Dr.Physio!</div>
           </div> 
         <div className="about" id="about-section">    
           

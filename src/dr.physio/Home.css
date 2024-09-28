@@ -72,14 +72,18 @@
     opacity: .6;
  }
  .caption{
-   padding: 5px;
-    text-align: center;
+    padding: 15px;
+    
     background-color: rgb(88, 88, 238);
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     color:rgb(248, 248, 248);
     cursor: pointer;
+ }
+ .caption1{
+   width: fit-content;
+   text-align: center;
  }
  .whatsp-icon{
    cursor: pointer;
@@ -149,11 +153,14 @@
    font-size: 18px;
    font-weight: 800;
 } */
+ .services{
+   width: 100%;
+   
+ }
 .service{
+   padding: 25px;
    border-radius: 8px 8px;
-   margin: 45px;
-   /* width: 34px auto; */
-   height: 550px;
+   margin: auto;
    border: .5px solid rgb(184, 204, 231);
 }
 .service:hover{
@@ -162,20 +169,16 @@
 .service-head{
    text-align: center;
    margin: 10px;
-   padding: 10px;
    font-size: 22px;
    font-weight:bold
 }
 .service-text{
    text-align: center;
-   padding: 10px;
    font-size: 18px;
 }
 .service-btn{
-   width: 120px;
-   margin-left: 130px;
-   margin-top: 50px;
-   padding: 5px;
+   margin: 50px auto;
+   padding: 5px 50px;
    border-radius: 12px;
    border: none;
 }

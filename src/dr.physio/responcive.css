@@ -29,14 +29,14 @@
     .caption{
         position: absolute;
         background: none;
-        width: 495px;
-        top: 8%;
-        left: 69%;
+        /* width: 495px; */
+        top: 10%;
+        /* left: 69%; */
         font-family: 'Times New Roman', Times, serif;
         font-weight: 600;
         font-size: 45px;
         color: rgb(40, 66, 126);
-        text-align: center;
+        
     }
     .whatsp-icon{    
         width: 50px;
@@ -76,8 +76,7 @@
     }
 
      .service{
-        margin-left: 50px;
-        height: 500px;
+        margin-top: 5%;
         width: 350px;
      }
      .services{
