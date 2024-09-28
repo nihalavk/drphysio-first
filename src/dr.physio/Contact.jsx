@@ -13,16 +13,16 @@ function Contact() {
               <div className="connection">
                 <div className="contact-det">
                   <ul>
-                   <li><FiPhoneOutgoing className='contact-icon' style={{height:"45px"}}/></li>
+                   <li><FiPhoneOutgoing className='contact-icon'/></li>
                    <li><CiMail className='contact-icon' /></li>
                    <li><BsClock className='contact-icon' /></li>
-                   <li><GrLocation className='contact-icon'/></li>
+                   <li><a href='location'><GrLocation className='contact-icon'/></a></li>
                  </ul>
                 </div>
-                <div className="contact-det">
+                <div className="contact-det1">
                   <ul>
-                   <li>+91 9745224441,<br></br>+91 9715030405</li>
-                   <li>drphysio@gmail.com</li>
+                   <li> <a href="number">+91 9745224441,<br></br>+91 9715030405</a></li>
+                   <li><a href='mail'>drphysio@gmail.com</a></li>
                    <li>9.30AM-1.00PM (Mon-Sat)</li>
                    <li>Sahara Building, Beach Road Koyilandy (Traffic police station Road)</li>
                   </ul>

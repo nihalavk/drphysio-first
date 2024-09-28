@@ -42,8 +42,8 @@
         height: 50px;    
     }
     .whatsp{
-        margin-left: 90%;
-        margin-top: 35%;
+        left: 85%;
+        top: 85%;
         width: 50px;
         height: 50px;
     }
@@ -89,6 +89,11 @@
       }
      .contact-det li{
         font-size: 22px;
+        line-height: 2;
+      }
+      .contact-det1 li{
+        font-size: 22px;
+        line-height: 2;
       }
     .foot1{
         padding-top: 20px;
@@ -97,9 +102,13 @@
     }
     .foot2-head{
         padding-left: 60px;
+        margin-left: 2.5%;
     }
     .foot2-list{
         padding-left: 60px;
     }
-    
+    .icon-head{
+        padding-left: 60px;
+        margin-left: 2.5%;
+    }
 }

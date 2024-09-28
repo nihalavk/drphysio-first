@@ -8,7 +8,6 @@ import img9 from './assets/icon-whatsapp.svg'
 function Home() {
   return (
     <div>
-      {/* <div className="main-body"> */}
         <div class="entry-image" id='home'> 
         <div className="whatsp">
           <img className='whatsp-icon' src={img9}/>
@@ -30,7 +29,7 @@ function Home() {
           <div className="para">To emerge as a trust worthy medical rehabilitation institution, providing advanced physical therapy and rehabilitation services that enhance the quality of life for our patience and to deliver exceptional healthcare services by leveraging advanced technology and the expertise of our talented professionals, ensuring the highest quality of care for our patients.</div>
         </div>
           </div> 
-        {/* </div> */}   
+         
     </div>
   )
 }

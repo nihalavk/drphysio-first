@@ -33,10 +33,10 @@ function Footer() {
               <div className="foot2-head">Quick Links</div>
               <div className="foot2-list">
                 <ul>
-                  <li>Home</li>
-                  <li>About Us</li>
+                  <li><a href='#home' >Home</a></li>
+                  <li><a href='#about-section'>About Us</a></li>
                   <li>Services</li>
-                  <li>Contact</li>
+                  <li><a href='#contact'>Contact</a></li>
                 </ul>
               </div>
             </div>
