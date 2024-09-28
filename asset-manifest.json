@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/drphysio-first/static/css/main.34969baa.css",
-    "main.js": "/drphysio-first/static/js/main.ebf24513.js",
+    "main.css": "/drphysio-first/static/css/main.e657aa69.css",
+    "main.js": "/drphysio-first/static/js/main.11070c0c.js",
     "static/js/453.c9c044d9.chunk.js": "/drphysio-first/static/js/453.c9c044d9.chunk.js",
     "static/media/physio_img1.jpeg": "/drphysio-first/static/media/physio_img1.dd943239e81c8f1f042e.jpeg",
     "static/media/drphysio_logo1.jpeg": "/drphysio-first/static/media/drphysio_logo1.809d5b4906f0ec5d5129.jpeg",
     "static/media/physio_aboutimg.jpg": "/drphysio-first/static/media/physio_aboutimg.899e9377fc770bb2a532.jpg",
     "static/media/icon-whatsapp.svg": "/drphysio-first/static/media/icon-whatsapp.a9fb4e4e7292448d3ff0462d2c7b239b.svg",
     "index.html": "/drphysio-first/index.html",
-    "main.34969baa.css.map": "/drphysio-first/static/css/main.34969baa.css.map",
-    "main.ebf24513.js.map": "/drphysio-first/static/js/main.ebf24513.js.map",
+    "main.e657aa69.css.map": "/drphysio-first/static/css/main.e657aa69.css.map",
+    "main.11070c0c.js.map": "/drphysio-first/static/js/main.11070c0c.js.map",
     "453.c9c044d9.chunk.js.map": "/drphysio-first/static/js/453.c9c044d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34969baa.css",
-    "static/js/main.ebf24513.js"
+    "static/css/main.e657aa69.css",
+    "static/js/main.11070c0c.js"
   ]
 }
