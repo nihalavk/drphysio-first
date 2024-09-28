@@ -1,28 +1,19 @@
 {
   "files": {
-    "main.css": "/drphysio-first/static/css/main.2cd582de.css",
-    "main.js": "/drphysio-first/static/js/main.21285663.js",
+    "main.css": "/drphysio-first/static/css/main.98db31dc.css",
+    "main.js": "/drphysio-first/static/js/main.ca352c63.js",
     "static/js/453.c9c044d9.chunk.js": "/drphysio-first/static/js/453.c9c044d9.chunk.js",
-    "static/media/Neuro-Physio.jpg": "/drphysio-first/static/media/Neuro-Physio.c450a07f461032228c4f.jpg",
-    "static/media/ortho_img.jpg": "/drphysio-first/static/media/ortho_img.954df060faccd4619ae4.jpg",
-    "static/media/Dry-Needling.jpg": "/drphysio-first/static/media/Dry-Needling.531528da5b731e61e967.jpg",
-    "static/media/Child-Physiotherapy.jpg": "/drphysio-first/static/media/Child-Physiotherapy.95e67ef11716a0ce98da.jpg",
     "static/media/physio_img1.jpeg": "/drphysio-first/static/media/physio_img1.dd943239e81c8f1f042e.jpeg",
-    "static/media/img-mfr.jpg": "/drphysio-first/static/media/img-mfr.44ba86fd5b41c8794064.jpg",
-    "static/media/iastm-therapy.jpg": "/drphysio-first/static/media/iastm-therapy.a426bb179eefde259c2e.jpg",
-    "static/media/surgical-img.jpg": "/drphysio-first/static/media/surgical-img.507936804fce8790eb75.jpg",
     "static/media/drphysio_logo1.jpeg": "/drphysio-first/static/media/drphysio_logo1.809d5b4906f0ec5d5129.jpeg",
-    "static/media/gynec-img.jpg": "/drphysio-first/static/media/gynec-img.b975befeb2abf8fb9ccd.jpg",
-    "static/media/gery-img.jpg": "/drphysio-first/static/media/gery-img.f914f0413823fedb94cb.jpg",
     "static/media/physio_aboutimg.jpg": "/drphysio-first/static/media/physio_aboutimg.899e9377fc770bb2a532.jpg",
     "static/media/icon-whatsapp.svg": "/drphysio-first/static/media/icon-whatsapp.a9fb4e4e7292448d3ff0462d2c7b239b.svg",
     "index.html": "/drphysio-first/index.html",
-    "main.2cd582de.css.map": "/drphysio-first/static/css/main.2cd582de.css.map",
-    "main.21285663.js.map": "/drphysio-first/static/js/main.21285663.js.map",
+    "main.98db31dc.css.map": "/drphysio-first/static/css/main.98db31dc.css.map",
+    "main.ca352c63.js.map": "/drphysio-first/static/js/main.ca352c63.js.map",
     "453.c9c044d9.chunk.js.map": "/drphysio-first/static/js/453.c9c044d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cd582de.css",
-    "static/js/main.21285663.js"
+    "static/css/main.98db31dc.css",
+    "static/js/main.ca352c63.js"
   ]
 }
