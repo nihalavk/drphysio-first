@@ -62,7 +62,7 @@ function Footer() {
                 <li ><FaSquareInstagram className='icon1' onClick={handleInstagramClick}/></li>
                 <li ><IoMdMail className='icon1' onClick={handleMailClick}/></li>
               </ul>
-              <div><h5  className="foot-discr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5></div>
+              <div><h5  className="foot-discr">Copyright © 2024 by drphysio. All Rights Reserved.</h5></div>
             </div> 
           </div>
     </div>

@@ -17,7 +17,7 @@ function Services() {
     <div>
         <div className="service-discr">
             <div className="sub-headings">SERVICES WE PROVIDE</div>
-            <div className="para" id='action/3.1'>At Dr.Physio we are committed to providing personalized, evidence-based physiotherapy services to help you achieve optimal health and mobility. </div>
+            <div className="para" id='action/3.1'>At Dr. Physio, we are dedicated to providing personalized, evidence-based physiotherapy services to help you achieve optimal health and mobility. Our experienced physiotherapists work with you to create customized treatment plans that address your unique needs and goals. We focus on not only relieving pain but also improving flexibility, strength, and overall well-being. Whether you're recovering from injury or managing a chronic condition, we use the latest techniques to support your recovery. Our commitment is to help you live a healthier, more active life, pain-free and with confidence.</div>
         </div>
         <div className="services" >
             {card.map((cardItems)=>
