@@ -1,4 +1,9 @@
 /* navbar */
+/* .main-image{
+   margin-top: 100px;
+   width: 100%;
+   background-image: linear-gradient(white,rgb(184, 182, 212),rgb(137, 137, 219),rgb(123, 123, 222));
+/* } */
 .bg-body-tertiary{
    background-color: white;
    position: fixed;
@@ -8,7 +13,8 @@
 }
 .nav-drop{
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(132, 132, 159) ;
 }
 .m-auto{
     font-size: 20px;
@@ -21,10 +27,7 @@
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif
 }
-.nav-drop{
-   color:rgb(132, 132, 159) ;
-    font-family: 'Times New Roman', Times, serif
-}
+
 #basic-nav-dropdown{
    color:rgb(132, 132, 159);
     padding: 10px;
@@ -36,7 +39,7 @@
     height: 50px;
 }
 
-.nav-banner{
+/* .nav-banner{
     width: 100%;
     width: fit-content;
     display: flex;
@@ -53,10 +56,15 @@
     font-size: 15px;
     color: black;
     font-family: 'Times New Roman', Times, serif
-}
+} */
 .icon{
     margin:5%;   
+} */
+
+.top-nav{
+   overflow: hidden;
 }
+
 
 /* home */
 .main-body{
@@ -69,7 +77,7 @@
 }
  .physio_img1{
     width: 100%;
-    opacity: .6;
+    opacity: .8;
  }
  .caption{
     padding: 15px;
@@ -119,7 +127,7 @@
  .abt-images{
     width: 100%;
     margin-top: 1%;
-    border-radius: 2%;
+    /* border-radius: 2%; */
  }
  
  .sub-headings{
@@ -250,6 +258,7 @@
    color: white;
    text-decoration: none;
  }
+
  .icon-head{
    color: white;
    padding: 30px;
@@ -258,6 +267,7 @@
  }
  
  .icons{
+
     color: white;
     padding: 20px;
     width: fit-content;
@@ -271,10 +281,25 @@
     padding: 8px;
  }
  .icon1{
+   cursor: pointer;
    width: 30px;
    height: 30px;
    margin-left: 20px;
  }
- 
+ /* iastm */
+ .iastmcontainer{
+   background-image: linear-gradient(rgb(210, 198, 217),rgb(235, 240, 241));
+}
+.nameBox{
+   
+   border: 1px solid black;
+   text-align: center;
+   font-size: 22px;
+}
+ .iastm{
+   margin-top: 3%;
+   text-align: center;
+   font-size: 25px;
+ }
 
  

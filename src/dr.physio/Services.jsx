@@ -15,17 +15,18 @@ function Services() {
         {heading:"Sports physiotherapy",text:"Sports physiotherapy specializes in preventing, diagnosing, and treating sports-related injuries and conditions. It focuses on optimizing athletic performance and facilitating recovery through tailored exercise programs, manual therapy, and rehabilitation techniques. Sports physiotherapists work with athletes to enhance strength, flexibility, and endurance, helping them return to their sport safely and effectively.",button:"more"}]
   return (
     <div>
-        <div className="service-discr" id='service-section'>
+        <div className="service-discr">
             <div className="sub-headings">SERVICES WE PROVIDE</div>
-            <div className="para">At Dr.Physio we are committed to providing personalized, evidence-based physiotherapy services to help you achieve optimal health and mobility. </div>
+            <div className="para" id='action/3.1'>At Dr.Physio we are committed to providing personalized, evidence-based physiotherapy services to help you achieve optimal health and mobility. </div>
         </div>
-        <div className="services">
+        <div className="services" >
             {card.map((cardItems)=>
-                <div className="service">
+                <div className="service" >
                     <div className="service-head">{cardItems.heading}</div>
                     <div className="service-text">{cardItems.text}</div>
                     <div style={{ "width" : "100%",'textAlign': 'center' }}>
-                        <button className='service-btn'>{cardItems.button}</button>
+                        {/* <div className="service-img"><img src={cardItems.img} /></div> */}
+                        {/* <button className='service-btn'>{cardItems.button}</button> */}
                     </div>
                 </div>
             )}

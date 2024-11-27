@@ -1,22 +1,26 @@
 import React, { useState } from 'react'
 import './Home.css'
 import './responcive.css'
-import img1 from './assets/physio_img1.jpeg'
-import img2 from './assets/physio_aboutimg.jpg'
+import img1 from './assets/about.jpg'
+import img2 from './assets/physio_img2.jpg'
 import img9 from './assets/icon-whatsapp.svg'
 
 function Home() {
+
+  const handleWhatsappClick=()=>{
+window.open("https://web.whatsapp.com/", "_blank");
+  }
   return (
     <div>
         <div class="entry-image" id='home'> 
         <div className="whatsp">
-          <img className='whatsp-icon' src={img9}/>
+          <img className='whatsp-icon' src={img9} onClick={handleWhatsappClick}/>
         </div>
           <img className='physio_img1' src={img1} /> 
-          <div className="caption">
+          {/* <div className="caption">
             <div className="caption1">Pain free life through Physiotherapy;</div> 
             <div className="caption1">Welcome To Dr.Physio!</div>
-          </div> 
+          </div>  */}
         <div className="about" id="about-section">    
           
               <div className="sub-headings">ABOUT US</div>

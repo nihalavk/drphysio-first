@@ -6,6 +6,13 @@ import { BsClock } from "react-icons/bs";
 import { FiPhoneOutgoing } from "react-icons/fi";
 import { GrLocation } from "react-icons/gr";
 function Contact() {
+  const handleMailClick=()=>{
+    window.open("https://mail.google.com/", "_blank");
+  }
+  const handleLocationClick=()=>{
+    const locatioUrl="https://maps.app.goo.gl/EhNpFxp5jpdG32CP7";
+    window.open(locatioUrl, "_blank");
+  }
   return (
     <div>
         <div className="contact" id="contact">
@@ -14,9 +21,9 @@ function Contact() {
                 <div className="contact-det">
                   <ul>
                    <li><FiPhoneOutgoing className='contact-icon'/></li>
-                   <li><CiMail className='contact-icon' /></li>
+                   <li><a href="mail" onClick={handleMailClick} ><CiMail className='contact-icon'  /></a></li>
                    <li><BsClock className='contact-icon' /></li>
-                   <li><a href='location'><GrLocation className='contact-icon'/></a></li>
+                   <li><a href='location' onClick={handleLocationClick}><GrLocation className='contact-icon'/></a></li>
                  </ul>
                 </div>
                 <div className="contact-det1">
