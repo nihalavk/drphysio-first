@@ -4,13 +4,11 @@
         height: 100px;
     }
     .d-inline-block{
-        /* margin-left: -100px; */
         width: 220px;
         height: 50px;
      }
      .nav-links{
         font-size: 22px;
-
      }
      #basic-nav-dropdown{
         font-size: 22px;
@@ -18,24 +16,20 @@
      /* home */
     .entry-image{
         position: relative;
-        /* margin-top: 95px; */
         width: 90%;
     }
     .physio_img1{
         margin-top: 5px;
         width: 111%;
-
     }
     .caption{
         position: absolute;
         background: none;
-        /* width: 495px; */
         top: 10%;
         font-family: 'Times New Roman', Times, serif;
         font-weight: 600;
         font-size: 45px;
-        color: rgb(40, 66, 126);
-        
+        color: rgb(40, 66, 126);    
     }
     .whatsp-icon{    
         width: 50px;
@@ -50,10 +44,8 @@
     .about-contents{
         display: flex;
     }
-   
     .abt-images{
         margin-top: 8%;
-        /* border-radius:50%; */
         width:300px;
         height: 250px;
         margin-left: 1%;
@@ -69,11 +61,9 @@
         line-height: 1.9;
         padding: 5px;
         margin-left: 50px;
-        /* text-align: center; */
         text-align: justify;
         font-size: 22px;
     }
-
      .service{
         margin: auto;
         margin-top: 3%;
@@ -98,7 +88,6 @@
     .foot1{
         padding-top: 20px;
         font-size: 22px;
-        /* font-style: oblique; */
     }
     .foot2-head{
         padding-left: 60px;
@@ -111,5 +100,4 @@
         padding-left: 60px;
         margin-left: 2.5%;
     }
-    
 }
