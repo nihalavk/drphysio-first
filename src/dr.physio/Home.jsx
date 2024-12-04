@@ -8,7 +8,7 @@ import img9 from './assets/icon-whatsapp.svg'
 function Home() {
 
   const handleWhatsappClick=()=>{
-window.open("https://web.whatsapp.com/", "_blank");
+window.open("https://wa.me/919745224441?text=Hello!");
   }
   return (
     <div>
