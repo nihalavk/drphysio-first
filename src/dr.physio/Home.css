@@ -1,9 +1,9 @@
 /* navbar */
-/* .main-image{
+.main-image{
    margin-top: 100px;
    width: 100%;
    background-image: linear-gradient(white,rgb(184, 182, 212),rgb(137, 137, 219),rgb(123, 123, 222));
-/* } */
+}
 .bg-body-tertiary{
    background-image: none;
    position: fixed;
@@ -67,10 +67,10 @@
 
 
 /* home */
-/* .main-body{
+.main-body{
    background-image: linear-gradient(rgb(225, 210, 235),rgb(217, 225, 226));
    
-} */
+}
 .entry-image{
     position: relative;
     margin-top: 75px;
