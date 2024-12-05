@@ -21,7 +21,6 @@ function Contact() {
                 <div className="contact-det">
                   <ul>
                    <li><FiPhoneOutgoing className='contact-icon'/></li>
-                   {/* <li><FiPhoneOutgoing className='contact-icon'/></li> */}
                    <li><CiMail className='contact-icon' /></li>
                    <li><BsClock className='contact-icon' /></li>
                    <li><GrLocation className='contact-icon'/></li>
@@ -30,7 +29,6 @@ function Contact() {
                 <div className="contact-det1">
                   <ul>
                    <li>+91 9745224441,+91 9715030405</li>
-                   {/* <li>+91 9715030405</li> */}
                    <li onClick={handleMailClick}>drphysio@gmail.com</li>
                    <li>9.30AM-1.00PM (Mon-Sat)</li>
                    <li onClick={handleLocationClick}>Sahara Building, Beach Road Koyilandy (Traffic police station Road)</li>
