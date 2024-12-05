@@ -15,7 +15,7 @@ function App() {
       {/* <FrontImage/> */}
       <Home/>
       <Services/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Contact/>
       <Footer/>
       {/* <Iastm/> */}
