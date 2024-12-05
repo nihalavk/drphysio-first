@@ -15,17 +15,19 @@
      }
      /* home */
     .entry-image{
+        margin-top: 12%;
         position: relative;
         width: 90%;
     }
     .physio_img1{
-        margin-top: 5px;
-        width: 111%;
+        margin-top: 50px;
+        width: 110%;
+        opacity: 1;
     }
     .caption{
         position: absolute;
         background: none;
-        top: 10%;
+        /* top: 10%; */
         font-family: 'Times New Roman', Times, serif;
         font-weight: 600;
         font-size: 45px;
@@ -51,15 +53,15 @@
         margin-left: 1%;
     }
     .sub-headings{
-        margin-left: 8%;
-        padding: 5%;
+        margin-top: 5%;
+        padding: 7%;
         font-size: 45px;
         font-weight: 600;
     }
     .para{
-        margin-top: 3%;
+        /* margin: 3%; */
         line-height: 1.9;
-        padding: 5px;
+        /* padding: 20px; */
         margin-left: 50px;
         text-align: justify;
         font-size: 22px;
@@ -77,13 +79,17 @@
      .contact-icon{
         width: 25px;
       }
+      .contact-det1{
+        margin: 0px;
+      }
+      .contact-det1 li{
+        padding: 3%;
+      }
      .contact-det li{
         font-size: 22px;
-        line-height: 2;
       }
       .contact-det1 li{
         font-size: 22px;
-        line-height: 2;
       }
     .foot1{
         padding-top: 20px;
@@ -100,4 +106,7 @@
         padding-left: 60px;
         margin-left: 2.5%;
     }
+    .icons ul{
+        margin-left: 2%;
+      }
 }

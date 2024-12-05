@@ -68,23 +68,25 @@
 }
 .entry-image{
     position: relative;
-    margin-top: 75px;
+    margin-top: 30%;
 }
  .physio_img1{
+   margin-top: 15%;
     width: 100%;
-    opacity: .8;
+    /* opacity: .8; */
  }
  .caption{
-    padding: 15px; 
-    background-color: rgb(88, 88, 238);
-    width: 100%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    color:rgb(248, 248, 248);
+        /* position: absolute; */
+        background: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 22px;
+        color: rgb(40, 66, 126); 
+        margin: 5%;
  }
  .caption1{
    width: fit-content;
-   text-align: end;
+   /* text-align: center; */
  }
  .whatsp-icon{
    cursor: pointer;
@@ -121,19 +123,20 @@
     margin-top: 1%;
  }
  .sub-headings{
+   padding: 8%;
    color:rgb(12, 12, 108) ;
-    text-align: center;
-    margin-top: 5%;
+    margin-top: 25%;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
  }
  .para{
     color: black;
     margin: 5%;
-    text-align: center;
     font-size: 20px;
-    padding: 3px;
+    
+    /* padding: 20px; */
+    line-height: 35px;
  }
 
  /* services */
@@ -152,28 +155,30 @@
 }  */
  .services{
    width: 100%;  
+   padding: 2%;
  }
 .service{
-   background-image: linear-gradient(rgb(218, 233, 247),rgb(233, 218, 230));
-   padding: 25px;
+   background-image: linear-gradient(rgb(218, 233, 247),rgb(248, 241, 247));
+   padding:3%;
    border-radius: 8px 8px;
    margin: 8%;
-   border: .5px solid rgb(184, 204, 231);
+   border: .5px solid rgb(228, 233, 240);
 }
 .service:hover{
+   transition: .5s;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .service-head{
    color: rgb(58, 58, 104);
    text-align: center;
    margin: 10px;
-   font-size: 22px;
+   font-size: 25px;
    font-weight:bold
 }
 .service-text{
    text-align: center;
    line-height: 35px;
-   font-size: 18px;
+   font-size: 20px;
 }
 .service-btn{
    margin: 50px auto;
@@ -185,27 +190,62 @@
    background-color: rgb(86, 84, 84);
    color: white;
 }
+
+
+/* testimonials */
+.testimonial-carousel {
+   width: 300px;
+   margin: auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   text-align: center;
+   background-color: #f9f9f9;
+ }
+ 
+ .testimonial-card {
+   margin-bottom: 20px;
+ }
+ 
+ button {
+   padding: 10px;
+   border: none;
+   background-color: #4caf50;
+   color: white;
+   cursor: pointer;
+   border-radius: 5px;
+   margin: 5px;
+ }
+ 
+ button:hover {
+   background-color: #45a049;
+ }
+
+
  /* contact */
 
  .connection{
     display: flex;
-    margin: 10%;
+    margin: 5%;
  }
  .contact-icon{
-   width: 15px;
+   width: 25px;
+   height: 50px;
+ }
+ .contact-det1{
+   margin: 3%;
  }
  .contact-det li{
     list-style-type: none;
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
  }
- .contact-det li a{
-   color: black;
-   text-decoration: none;  
- }
+
  .contact-det1 li{
+   font-size: 20px;
    list-style-type: none;
    font-family: 'Times New Roman', Times, serif;
+   padding: 4%;
 }
 .contact-det1 li a{
   color: black;
@@ -216,21 +256,17 @@
 
  .foot{
     background-color: rgb(35, 35, 69);
+    color: white;
  }
  .foot-discr{
     padding-bottom: 5%;   
-    color: white;
     font-size: 15px;
     text-align: center;
  }
  .foot1{
    padding: 25px;
    font-size: 15px;
-   color: white;
    text-align: center;
- }
- .foot2{
-   color: white;
  }
  .foot2-head{
    padding: 30px;
@@ -248,19 +284,13 @@
    text-decoration: none;
  }
  .icon-head{
-   color: white;
    padding: 30px;
    font-size: 21px;
    font-weight: 500;
  }
- .icons{
-    color: white;
-    padding: 20px;
-    width: fit-content;
- }
  .icons ul{
    display: flex;
-   margin: auto;
+   margin-left: 15%;
  }
  .icons li{
     list-style-type: none;
@@ -272,8 +302,3 @@
    height: 30px;
    margin-left: 20px;
  }
-.nameBox{
-   border: 1px solid black;
-   text-align: center;
-   font-size: 22px;
-} 

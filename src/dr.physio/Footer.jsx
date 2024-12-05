@@ -11,10 +11,10 @@ function Footer() {
     window.open("https://www.facebook.com/", "_blank")
   }
   const handleWhatsappClick=()=>{
-    window.open("https://web.whatsapp.com/", "_blank");
+    window.open("https://wa.me/919745224441?text=Hello!");
       }
       const handleInstagramClick=()=>{
-        window.open("https://www.instagram.com/", "_blank")
+        window.open("https://www.instagram.com/dr_physio_koyilandy/profilecard/?igsh=ZGZmeXJjNXI0anR5")
       }
       const handleMailClick=()=>{
         window.open("https://mail.google.com/", "_blank");
@@ -57,7 +57,7 @@ function Footer() {
           <div className="icon-head">Follow Us On</div>
               <div className="icons">
               <ul>
-                <li><FaSquareFacebook className='icon1'onClick={handleFacebookClick}/></li>
+                {/* <li><FaSquareFacebook className='icon1'onClick={handleFacebookClick}/></li> */}
                 <li ><RiWhatsappFill className='icon1' onClick={handleWhatsappClick}/></li>
                 <li ><FaSquareInstagram className='icon1' onClick={handleInstagramClick}/></li>
                 <li ><IoMdMail className='icon1' onClick={handleMailClick}/></li>
