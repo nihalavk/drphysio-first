@@ -29,9 +29,6 @@ function Footer() {
               <div className="foot2-head">Treatments</div>
               <div className="foot2-list" >
                 <ul>
-                  <li >Instrument Assisted soft tissue mobilization(IASTM)</li>
-                  <li>Dry Needling</li>
-                  <li>Myofacil Release(MFR)</li>
                   <li>Ortho Physiotherapy</li>
                   <li>Neuro Physiotherapy</li>
                   <li>Pediatric Physiotherapy</li>
@@ -39,6 +36,9 @@ function Footer() {
                   <li>Gynacological Physiotherapy</li>
                   <li>Post Surgical Physiotherapy</li>
                   <li>Sports Physiotherapy</li>
+                  <li>Instrument Assisted soft tissue mobilization(IASTM)</li>
+                  <li>Dry Needling</li>
+                  <li>Myofacil Release(MFR)</li>
                 </ul>
               </div>
             </div>
