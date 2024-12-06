@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ce82a561.css",
-    "main.js": "/static/js/main.a83f4567.js",
+    "main.js": "/static/js/main.d80e5bee.js",
     "static/js/453.c9c044d9.chunk.js": "/static/js/453.c9c044d9.chunk.js",
     "static/media/about.jpg": "/static/media/about.dbce8ad7e76d3add7683.jpg",
     "static/media/physio_img2.jpg": "/static/media/physio_img2.aa62f70dc234a8bdc56c.jpg",
@@ -9,11 +9,11 @@
     "static/media/icon-whatsapp.svg": "/static/media/icon-whatsapp.a9fb4e4e7292448d3ff0462d2c7b239b.svg",
     "index.html": "/index.html",
     "main.ce82a561.css.map": "/static/css/main.ce82a561.css.map",
-    "main.a83f4567.js.map": "/static/js/main.a83f4567.js.map",
+    "main.d80e5bee.js.map": "/static/js/main.d80e5bee.js.map",
     "453.c9c044d9.chunk.js.map": "/static/js/453.c9c044d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce82a561.css",
-    "static/js/main.a83f4567.js"
+    "static/js/main.d80e5bee.js"
   ]
 }
