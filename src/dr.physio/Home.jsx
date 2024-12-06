@@ -26,7 +26,7 @@ window.open("https://wa.me/919745224441?text=Hello!");
           
               <div className="sub-headings"> Dr Physio</div>
               <div className="about-contents">
-                <div className="para">We are dedicated to delivering result-oriented physiotherapy services grounded in scientific protocols. Our approach emphasizes advanced physiotherapy techniques and long-term rehabilitation strategies designed to ensure our clients achieve and maintain optimal functional independence throughout their lives. By focusing on personalized care and evidence-based practices, we aim to support our clients in their journey toward sustained health, mobility, and overall well-being.</div>
+                <div className="para">Dr. Physio is a trusted physiotherapy center located in Koyilandy, Calicut. We offer high-quality, personalized physiotherapy treatments for individuals of all ages dealing with pain or physical limitations due to lifestyle conditions, injuries, aging, or other factors. Our team is committed to providing effective and comprehensive care to help you recover, manage pain, and improve your mobility for a better, more active life.</div>
               
               <img className='abt-images' src={img2} />
           </div>
