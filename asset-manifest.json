@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c3590e3.css",
+    "main.css": "/static/css/main.7fbe4805.css",
     "main.js": "/static/js/main.8d6e9b22.js",
     "static/js/453.c9c044d9.chunk.js": "/static/js/453.c9c044d9.chunk.js",
     "static/media/about.jpg": "/static/media/about.dbce8ad7e76d3add7683.jpg",
@@ -9,12 +9,12 @@
     "static/media/drphysio_logo1.jpeg": "/static/media/drphysio_logo1.809d5b4906f0ec5d5129.jpeg",
     "static/media/icon-whatsapp.svg": "/static/media/icon-whatsapp.a9fb4e4e7292448d3ff0462d2c7b239b.svg",
     "index.html": "/index.html",
-    "main.0c3590e3.css.map": "/static/css/main.0c3590e3.css.map",
+    "main.7fbe4805.css.map": "/static/css/main.7fbe4805.css.map",
     "main.8d6e9b22.js.map": "/static/js/main.8d6e9b22.js.map",
     "453.c9c044d9.chunk.js.map": "/static/js/453.c9c044d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c3590e3.css",
+    "static/css/main.7fbe4805.css",
     "static/js/main.8d6e9b22.js"
   ]
 }
