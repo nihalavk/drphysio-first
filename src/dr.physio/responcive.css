@@ -8,10 +8,19 @@
         height: 100px;
      }
      .nav-links{
-        font-size: 22px;
+        font-size: 20px;
+     }
+     .nav-links:hover{
+        transform: scale(1.05);
+        transition: .5s;
+        
      }
      #basic-nav-dropdown{
-        font-size: 22px;
+        font-size: 20px;
+     }
+     #basic-nav-dropdown:hover{
+        transform: scale(1.05);
+        transition: .5s;
      }
      /* home */
     .entry-image{
@@ -58,11 +67,6 @@
         margin-left: 6%;
         padding: 35px;
     }
-    .sub1:hover{
-        transform: scale(1.1);
-        margin-left: 10%;
-        transition: 1s;
-       }
     .sub-headings{
         margin-top: 10%;
         margin-left: 7%;
@@ -87,7 +91,16 @@
         display: flex;
         flex-wrap: wrap;
      }
-     
+     .reason{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 2%;
+     }
+     .reason1{
+        padding: 1%;
+        margin-left: 6%;
+     }
     .foot1{
         padding-top: 20px;
         font-size: 22px;

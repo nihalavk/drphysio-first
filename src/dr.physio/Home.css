@@ -131,21 +131,26 @@
    color:rgb(12, 12, 108) ;
     margin-top: 25%;
     font-weight: 800;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
  }
  .sub1{
-  font-size: 25px;
+  margin-top: 2%;
+  font-size: 22px;
   margin-left: 10%;
   color: rgb(88, 88, 96);
+ }
+ .sub1:hover{
+  transform: scale(1.1);
+  margin-left: 10%;
+  transition: 1s;
  }
  
  .para{
     color: black;
-    margin: 5%;
+    margin: 8%;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    /* padding: 20px; */
     line-height: 35px;
  }
 
@@ -201,6 +206,28 @@
    color: white;
 }
 
+/* why choose us */
+
+.reason{
+  padding: 8%;
+  width: 100%;
+  margin-left: 5%;
+}
+.reason1{
+  background-image: linear-gradient(rgb(224, 234, 243),rgb(242, 240, 242));
+  margin: 5%;
+  padding: 2%;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 8px 8px;
+  border: .5px solid rgb(228, 233, 240);
+}
+.reason1:hover{
+  transition: 1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: 500;
+}
 
 /* testimonials */
 .testimonial-carousel {
