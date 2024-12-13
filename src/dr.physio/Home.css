@@ -1,3 +1,4 @@
+
 /* navbar */
 .main-image{
    margin-top: 100px;
@@ -63,9 +64,7 @@
 }
 
 /* home */
-.main-body{
-   background-image: linear-gradient(rgb(225, 210, 235),rgb(217, 225, 226)); 
-}
+
 .entry-image{
     position: relative;
     margin-top: 30%;
@@ -86,7 +85,6 @@
  }
  .caption1{
    width: fit-content;
-   /* text-align: center; */
  }
  .whatsp-icon{
    cursor: pointer;
@@ -118,6 +116,10 @@
    width: 50px;
    height: 50px;
 }
+.about{
+  /* margin-left: 6%; */
+  background-image: linear-gradient(rgb(249, 249, 253),rgb(238, 238, 250),white);
+}
  .abt-images{
     width: 100%;
     margin-top: 1%;
@@ -129,21 +131,21 @@
  .sub-headings{
    padding: 8%;
    color:rgb(12, 12, 108) ;
-    margin-top: 25%;
-    font-weight: 800;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+   margin-top: 25%;
+   font-weight: 800;
+   font-size: 30px;
+   font-family: 'Poppins', sans-serif;
  }
  .sub1{
-  margin-top: 2%;
-  font-size: 22px;
-  margin-left: 10%;
-  color: rgb(88, 88, 96);
+   margin-top: 2%;
+   font-size: 22px;
+   margin-left: 10%;
+   color: rgb(88, 88, 96);
  }
  .sub1:hover{
-  transform: scale(1.1);
-  margin-left: 10%;
-  transition: 1s;
+   transform: scale(1.1);
+   margin-left: 10%;
+   transition: 1s;
  }
  
  .para{
@@ -168,6 +170,9 @@
    font-size: 18px;
    font-weight: 800;
 }  */
+ .service-discr{
+  background-image: linear-gradient(white,rgb(249, 249, 253),rgb(238, 238, 250),white);
+ }
  .services{
    width: 100%;  
    padding: 2%;
@@ -207,7 +212,9 @@
 }
 
 /* why choose us */
-
+.Why-discr{
+  background-image: linear-gradient(white,rgb(249, 249, 253),rgb(238, 238, 250),white);
+}
 .reason{
   padding: 8%;
   width: 100%;
@@ -259,6 +266,9 @@
 
 
  /* contact */
+ .contact{
+  background-image: linear-gradient(white,rgb(249, 249, 253),rgb(238, 238, 250),white);
+ }
 .contactContainer{
    margin: 7%;
 }
@@ -282,6 +292,7 @@
  /* footer */
 
  .foot{
+    width: 100%;
     background-color: rgb(35, 35, 69);
     color: white;
  }

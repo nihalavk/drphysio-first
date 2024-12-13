@@ -22,13 +22,10 @@ window.open("https://wa.me/919745224441?text=Hello!");
             <div className="caption1">Welcome To Dr.Physio!</div>
           </div>  */}
           <img className='physio_img1' src={img1} /> 
-        <div className="about" id="about-section">    
-           {/* <div className="caption">
-            <div className="caption1">Pain free life through Dr Physio</div> 
-           </div>  */}
-              <div className="sub-headings">Pain free life through Dr Physio</div>
-              <div className="sub1">About Us</div>
-              <div className="about-contents">
+          <div className="about" id="about-section">    
+            <div className="sub-headings">Pain free life through Dr Physio</div>
+            <div className="sub1">About Us</div>
+            <div className="about-contents">
                 <div className="para">Dr. Physio is a trusted physiotherapy center located in Koyilandy, Calicut. We offer high-quality, personalized physiotherapy treatments for individuals of all ages dealing with pain or physical limitations due to lifestyle conditions, injuries, aging, or other factors. Our team is committed to providing effective and comprehensive care to help you recover, manage pain, and improve your mobility for a better, more active life.</div>
               
               <img className='abt-images' src={img2} />
