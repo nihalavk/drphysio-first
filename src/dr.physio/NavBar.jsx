@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import './responcive.css'
-import logo from './assets/drphysio_logo1.jpeg'
+import logo from './assets/Logo-01.png'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -14,7 +14,7 @@ function NavBar() {
             <Navbar.Brand href="#home"><img src={logo}className="d-inline-block align-top"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="m-auto" >
+            <Nav className="ms-auto" >
               <Nav.Link href="#home" className='nav-links'>Home</Nav.Link>
               <Nav.Link href="#about-section"  className='nav-links'>About Us</Nav.Link>
               <NavDropdown title="Our Services" id="basic-nav-dropdown">

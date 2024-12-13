@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import './responcive.css'
+import logo from './assets/Logo-01.png'
 import { RiWhatsappFill } from "react-icons/ri";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
@@ -23,6 +24,7 @@ function Footer() {
   return (
     <div>
         <div className="foot">
+          {/* <div className="footLogo" ></div> */}
           <div className="foot-first">
             <div className='foot1'>Dr.Physio, where healing meets expertise. We offers tailored therapies to and enhance your quality of life.  your path to recovery begins here!</div>
             <div className="foot2">
