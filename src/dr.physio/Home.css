@@ -86,6 +86,13 @@
  .caption1{
    width: fit-content;
  }
+ .sub{
+  margin: 13%;
+  font-size: 28px;
+  font-weight: 600;
+  color:rgb(12, 12, 108);
+  text-align: center;
+ }
  .whatsp-icon{
    cursor: pointer;
    width: 50px;

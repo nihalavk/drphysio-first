@@ -13,7 +13,6 @@
      .nav-links:hover{
         transform: scale(1.05);
         transition: .5s;
-        
      }
      #basic-nav-dropdown{
         font-size: 20px;
@@ -52,6 +51,10 @@
         top: 85%;
         width: 50px;
         height: 50px;
+    }
+    .sub{
+        font-size: 45px;
+        margin: 2%;
     }
     .about{
         background-image: none;

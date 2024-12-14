@@ -16,8 +16,8 @@ function Contact() {
   return (
     <div>
         <div className="contact" id="contact">
-            <div className="sub-headings">Contact Us</div>
-            <div className="sub1">Connect Us Through</div>
+            <div className="sub-headings">Connect Us</div>
+            {/* <div className="sub1">Connect Us Through</div> */}
               <div className="contactContainer">
                   <div className="contacting">
                     <div className="contactIcon"><FiPhoneOutgoing className='contact-icon'/></div>
