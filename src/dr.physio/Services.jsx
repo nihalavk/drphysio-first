@@ -25,6 +25,7 @@ function Services() {
             {card.map((cardItems)=>
                 <div className="service" >
                     <div className="service-head">{cardItems.heading}</div>
+                    <hr></hr>
                     <div className="service-text">{cardItems.text}</div>
                     <div style={{ "width" : "100%",'textAlign': 'center' }}>
                         {/* <div className="service-img"><img src={cardItems.img} /></div> */}

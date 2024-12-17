@@ -113,7 +113,7 @@
    color:rgb(12, 12, 108) ;
    margin-top: 25%;
    font-weight: 800;
-   font-size: 30px;
+   font-size: 25px;
    font-family: 'Poppins', sans-serif;
  }
  .sub1{
@@ -131,25 +131,13 @@
  .para{
     color: black;
     margin: 8%;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
     line-height: 35px;
  }
 
  /* services */
 
-  /* .service-images{
-   height: 50%;
- } 
- .images{
-    width: 100%;
-    height: 50%;
-    margin-top: 5%;
- } 
-  .carousal{
-   font-size: 18px;
-   font-weight: 800;
-}  */
  .service-discr{
   background-image: linear-gradient(white,rgb(249, 249, 253),rgb(238, 238, 250),white);
  }
@@ -172,12 +160,12 @@
    color: rgb(58, 58, 104);
    text-align: center;
    margin: 10px;
-   font-size: 25px;
+   font-size: 22px;
    font-weight:bold
 }
 .service-text{
    text-align: center;
-   line-height: 35px;
+   line-height: 25px;
    font-size: 17px;
 }
 .service-btn{
@@ -194,33 +182,22 @@
 /* why choose us */
 
 .reason{
-  padding: 4%;
-  width: 100%;
+  margin: 111px;
 }
 .reason1{
   display: flex;
-  font-size: 20px;
 }
 .reason-name{
   cursor: pointer;
-  margin: 5%;
-  padding: 2%;
-  transform: scale(1.2);
-  transition: 1s;
+  margin: 15px;
+  font-size: 20px;
 }
 .reason-icon{
   color: rgb(16, 16, 76);
-  margin: 5%;
-  padding: 2%;
+  margin: 15px;
+  font-size: 17px;
 }
-.reson-icon:hover{
-  transform: scale(1.3);
-  transition: 1s;
-}
-.reason-name:hover{
-  transition: 1s;
-  font-weight: 500;
-}
+
 
 /* testimonials */
 .testimonial-carousel {
