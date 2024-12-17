@@ -1,10 +1,6 @@
 
 /* navbar */
-.main-image{
-   margin-top: 100px;
-   width: 100%;
-   background-image: linear-gradient(white,rgb(184, 182, 212),rgb(137, 137, 219),rgb(123, 123, 222));
-}
+
 .bg-body-tertiary{
    position: fixed;
    width: 100%;
@@ -13,24 +9,20 @@
 }
 .nav-drop{
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
     color:rgb(12, 12, 108) ;
 }
 .m-auto{
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
 }
 .nav-links{
     color:rgb(12, 12, 108) ;
     padding: 10px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
 }
 #basic-nav-dropdown{
     color:rgb(12, 12, 108) ;
     padding: 10px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
 }
 .d-inline-block {
    
@@ -38,24 +30,6 @@
     height: 100px;
 }
 
-/* .nav-banner{
-    width: 100%;
-    width: fit-content;
-    display: flex;
-    }
-.nav-items ul{
-    background-color: rgb(88, 88, 238);
-    color: white;
-    list-style-type: none;
-    width: fit-content;
-}
-.nav-items li a{
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 15px;
-    color: black;
-    font-family: 'Times New Roman', Times, serif
-} */
 .icon{
     margin:5%;   
 } 
@@ -72,7 +46,6 @@
  .physio_img1{
    margin-top: 15%;
     width: 100%;
-    /* opacity: .8; */
  }
  .caption{
         /* position: absolute; */
@@ -205,7 +178,7 @@
 .service-text{
    text-align: center;
    line-height: 35px;
-   font-size: 20px;
+   font-size: 17px;
 }
 .service-btn{
    margin: 50px auto;
@@ -219,26 +192,33 @@
 }
 
 /* why choose us */
-.Why-discr{
-  background-image: linear-gradient(white,rgb(249, 249, 253),rgb(238, 238, 250),white);
-}
+
 .reason{
-  padding: 8%;
+  padding: 4%;
   width: 100%;
 }
 .reason1{
-  background-image: linear-gradient(rgb(224, 234, 243),rgb(242, 240, 242));
+  display: flex;
+  font-size: 20px;
+}
+.reason-name{
+  cursor: pointer;
   margin: 5%;
   padding: 2%;
-  border: 1px solid black;
-  text-align: center;
-  font-size: 20px;
-  border-radius: 8px 8px;
-  border: .5px solid rgb(228, 233, 240);
-}
-.reason1:hover{
+  transform: scale(1.2);
   transition: 1s;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reason-icon{
+  color: rgb(16, 16, 76);
+  margin: 5%;
+  padding: 2%;
+}
+.reson-icon:hover{
+  transform: scale(1.3);
+  transition: 1s;
+}
+.reason-name:hover{
+  transition: 1s;
   font-weight: 500;
 }
 

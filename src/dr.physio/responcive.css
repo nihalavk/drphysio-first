@@ -1,8 +1,6 @@
 @media screen and (min-width: 600px){
    /* navbar */
-    .bg-body-tertiary{
-        height: 100px;
-    }
+   
     .d-inline-block{
         width: 250px;
         height: 100px;
@@ -24,7 +22,6 @@
      /* home */
     .entry-image{
         margin-top: 3%;
-        position: relative;
         width: 90%;
     }
     .physio_img1{
@@ -59,11 +56,8 @@
     .about{
         background-image: none;
     }
-    .about-contents{
-        display: flex;
-    }
     .abt-images{
-        margin-top: 3%;
+        margin-top: 10%;
         width:450px;
         height: 350px;
         margin-left: 1%;
@@ -98,8 +92,6 @@
         flex-wrap: wrap;
      }
      .reason{
-        display: flex;
-        flex-wrap: wrap;
         margin: auto;
         padding: 2%;
      }
@@ -107,6 +99,7 @@
         padding: 1%;
         margin-left: 6%;
      }
+
     .foot1{
         padding-top: 20px;
         font-size: 22px;
@@ -125,4 +118,16 @@
     .icons ul{
         margin-left: 2%;
       }
+}
+
+@media screen and (min-width: 1200px){
+
+    .about-contents{
+        display: flex;
+    }
+}
+@media screen and (min-width: 990px){
+    .bg-body-tertiary{
+        height: 100px;
+    }
 }

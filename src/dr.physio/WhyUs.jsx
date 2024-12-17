@@ -1,9 +1,11 @@
 import React from 'react'
 import './Home.css'
 import './responcive.css'
+import { FaHandPointRight } from "react-icons/fa";
+
 function WhyUs() {
-    const card=[{name:"Expert physiotherapist"},{name:"Personalized Care Plans"},{name:"Comprehensive Services"},{name:"State-of-the-Art Facility"},
-        {name:"Patient-Centered Approach"},{name:"Proven Results"},{name:"Convenient Location & Flexible Hours"},
+    const card=[{name:"Expert physiotherapist",icon:<FaHandPointRight />},{name:"Personalized Care Plans",icon:<FaHandPointRight />},{name:"Comprehensive Services",icon:<FaHandPointRight />},
+        {name:"Patient-Centered Approach",icon:<FaHandPointRight />},{name:"Proven Results",icon:<FaHandPointRight />},{name:"Convenient Location & Flexible Hours",icon:<FaHandPointRight />},
     ]
   return (
     <div>
@@ -14,6 +16,7 @@ function WhyUs() {
         <div className="reason">
         {card.map((cardItems)=>
                 <div className="reason1" >
+                    <div className="reason-icon">{cardItems.icon}</div>
                     <div className="reason-name">{cardItems.name}</div>                    
                 </div>
             )}
