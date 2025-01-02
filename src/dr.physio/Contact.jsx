@@ -16,7 +16,7 @@ function Contact() {
   return (
     <div>
         <div className="contact" id="contact">
-            <div className="sub-headings">Connect Us</div>
+            <div className="sub-headings">Contact Us</div>
             {/* <div className="sub1">Connect Us Through</div> */}
               <div className="contactContainer">
                   <div className="contacting">
@@ -29,7 +29,7 @@ function Contact() {
                   </div>
                   <div className="contacting">
                     <div className="contactIcon"><BsClock className='contact-icon' /></div>
-                    <div className="contactMethod">9.00 AM - 1.00 PM (Mon-Sat)</div>
+                    <div className="contactMethod">9.00 AM - 5.00 PM (Mon-Sat)</div>
                   </div>
                   <div className="contacting">
                     <div className="contactIcon"><GrLocation className='contact-icon'/></div>

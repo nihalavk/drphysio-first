@@ -4,7 +4,7 @@ import './responcive.css'
 import { FaHandPointRight } from "react-icons/fa";
 
 function WhyUs() {
-    const card=[{name:"Expert physiotherapist",icon:<FaHandPointRight />},{name:"Personalized Care Plans",icon:<FaHandPointRight />},{name:"Comprehensive Services",icon:<FaHandPointRight />},
+    const card=[{name:"Expert physiotherapists",icon:<FaHandPointRight />},{name:"Personalized Care Plans",icon:<FaHandPointRight />},{name:"Comprehensive Services",icon:<FaHandPointRight />},
         {name:"Patient-Centered Approach",icon:<FaHandPointRight />},{name:"Proven Results",icon:<FaHandPointRight />},{name:"Convenient Location & Flexible Hours",icon:<FaHandPointRight />},
     ]
   return (

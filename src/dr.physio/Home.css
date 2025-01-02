@@ -234,7 +234,7 @@
   background-image: linear-gradient(white,rgb(249, 249, 253),rgb(238, 238, 250),white);
  }
 .contactContainer{
-   margin: 7%;
+   margin: 5%;
 }
  .contacting{
    display: flex;
@@ -245,6 +245,7 @@
    font-size: 20px;
  }
  .contactIcon{
+  margin-left: 5%;
    width: 25px;
    height: 50px;
  }
